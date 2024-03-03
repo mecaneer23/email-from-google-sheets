@@ -7,9 +7,7 @@ function main() {
   data = getData("Form Responses 1");
   data.shift();
   data.forEach(function (row) {
-      var email = row[7];
-      var name = row[11];
-      sendEmailMessage(email, name);
+      sendEmailMessage(row[EMAIL_IDX], row[NAME_IDX]);
   });
 }
 
