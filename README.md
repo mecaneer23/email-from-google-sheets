@@ -1,5 +1,9 @@
 # Email from google sheets
 
+AppsScript code to send emails based on data from a Google Sheet
+
+## How to
+
 The following worked for me to email a list of people from google sheets
 
 1. Create associated Apps Script (Extensions -> Apps Script)
